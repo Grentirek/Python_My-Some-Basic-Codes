@@ -3,7 +3,7 @@ b = int(input("Üst sayıyı giriniz: "))
 x = range(a, b)
 def listing():
     a = min(x)-1
-    for i in x:#x'teki sayılar kadar (11 tane) bunu yap
+    for i in x:#x'teki sayılar kadar bunu yap
         a += 1
         print(a)
     print(a+1)
